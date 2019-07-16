@@ -26,8 +26,8 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_dependency 'sidekiq',           '~> 3.3.4'
-  spec.add_dependency 'sidekiq-throttler', '~> 0.4.1'
+  spec.add_dependency 'sidekiq',           '~> 4.2.10'
+  spec.add_dependency 'sidekiq-throttler', '~> 0.5.1'
   spec.add_dependency 'aws-sdk',           '~> 2.1.21'
   spec.add_dependency 'rails',             '~> 3.2'
 
